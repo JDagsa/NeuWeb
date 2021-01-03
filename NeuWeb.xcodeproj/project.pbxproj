@@ -11,6 +11,7 @@
 		3657E36525A1A980002DA282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3657E36425A1A980002DA282 /* ViewController.swift */; };
 		3657E36725A1A985002DA282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3657E36625A1A985002DA282 /* Assets.xcassets */; };
 		3657E36A25A1A985002DA282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3657E36825A1A985002DA282 /* Main.storyboard */; };
+		3657E37525A1A998002DA282 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3657E37425A1A997002DA282 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3657E36925A1A985002DA282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3657E36B25A1A985002DA282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3657E36C25A1A985002DA282 /* NeuWeb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeuWeb.entitlements; sourceTree = "<group>"; };
+		3657E37425A1A997002DA282 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3657E37525A1A998002DA282 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +42,7 @@
 			children = (
 				3657E36125A1A980002DA282 /* NeuWeb */,
 				3657E36025A1A980002DA282 /* Products */,
+				3657E37325A1A997002DA282 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +65,14 @@
 				3657E36C25A1A985002DA282 /* NeuWeb.entitlements */,
 			);
 			path = NeuWeb;
+			sourceTree = "<group>";
+		};
+		3657E37325A1A997002DA282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3657E37425A1A997002DA282 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
