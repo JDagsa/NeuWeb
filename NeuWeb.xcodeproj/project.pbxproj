@@ -12,6 +12,7 @@
 		3657E36725A1A985002DA282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3657E36625A1A985002DA282 /* Assets.xcassets */; };
 		3657E36A25A1A985002DA282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3657E36825A1A985002DA282 /* Main.storyboard */; };
 		3657E37525A1A998002DA282 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3657E37425A1A997002DA282 /* WebKit.framework */; };
+		36A968D025A208CE0033EFF8 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A968CF25A208CE0033EFF8 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3657E36B25A1A985002DA282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3657E36C25A1A985002DA282 /* NeuWeb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeuWeb.entitlements; sourceTree = "<group>"; };
 		3657E37425A1A997002DA282 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		36A968CF25A208CE0033EFF8 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				3657E36425A1A980002DA282 /* ViewController.swift */,
 				3657E36625A1A985002DA282 /* Assets.xcassets */,
 				3657E36825A1A985002DA282 /* Main.storyboard */,
+				36A968CF25A208CE0033EFF8 /* WindowController.swift */,
 				3657E36B25A1A985002DA282 /* Info.plist */,
 				3657E36C25A1A985002DA282 /* NeuWeb.entitlements */,
 			);
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3657E36525A1A980002DA282 /* ViewController.swift in Sources */,
+				36A968D025A208CE0033EFF8 /* WindowController.swift in Sources */,
 				3657E36325A1A980002DA282 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NeuWeb/NeuWeb.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7K98NR4PBB;
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NeuWeb/NeuWeb.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7K98NR4PBB;
