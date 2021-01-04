@@ -701,7 +701,7 @@
                                         <segmentedCell key="cell" enabled="NO" borderStyle="border" alignment="left" style="texturedSquare" trackingMode="selectOne" id="KOF-wb-tHC">
                                             <font key="font" metaFont="system"/>
                                             <segments>
-                                                <segment width="32">
+                                                <segment width="32" tag="1">
                                                     <imageReference key="image" image="NSGoBackTemplate" symbolScale="large"/>
                                                 </segment>
                                                 <segment image="NSGoForwardTemplate" width="32" tag="1"/>
